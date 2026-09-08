@@ -14,10 +14,9 @@ public class App {
         System.out.println();
         p1Atributos.exibitStatus();
 
-
-
         p1.atacar("Banshee");
         System.out.println("\n\n");
+
         p2.exibirPersonagem();
         System.out.println();
         p2Atributos.exibitStatus();

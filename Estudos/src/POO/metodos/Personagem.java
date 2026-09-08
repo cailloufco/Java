@@ -24,7 +24,7 @@ public class Personagem {
         if (atributo.magia > atributo.forca) {
             System.out.print(nome + " ATACOU O " + alvo + " !!!\nCAUSOU : " + (atributo.magia * 1.3) + " DANO !");
         }else {
-            System.out.print(nome + " ATACOU O " + alvo + " !!!\nCAUSOU : " + (atributo.forca * 1.1) + " DANO !");
+            System.out.print(nome + " ATACOU O " + alvo + " !!!\nCAUSOU : " + (atributo.forca) + " DANO !");
         }
     }
 }
